@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Satisfaction Survey - GassTrip Indonesia</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0;">
+
+    <nav style="background-color: darkblue; padding: 15px; color: white; display: flex; justify-content: space-between; align-items: center;">
+        <div style="font-weight: bold; font-size: 20px;">GassTrip Indonesia</div>
+        <div>
+            <a href="#" style="color: white; text-decoration: none; margin-left: 20px;">Home</a>
+            <a href="#" style="color: white; text-decoration: none; margin-left: 20px;">Portfolio</a>
+            <a href="#" style="color: white; text-decoration: none; margin-left: 20px; border-bottom: 2px solid white;">Survey</a>
+        </div>
+    </nav>
+
+    <div style="max-width: 650px; margin: 40px auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+        <h2 style="color: darkblue; text-align: center; margin-top: 0;">Customer Satisfaction Survey</h2>
+        <p style="text-align: center; color: #666;">Help us improve your traveling experience with <b>GassTrip</b>.</p>
+        <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
+
+        <form action="#" method="post">
+            <h3 style="color: #444; border-left: 4px solid darkblue; padding-left: 10px;">Personal Data</h3>
+            <div style="margin-bottom: 15px;">
+                <label>Full Name:</label><br>
+                <input type="text" name="nama" placeholder="Enter your full name" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+                <label>Email:</label><br>
+                <input type="text" name="alamat" placeholder="Enter your address" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label>Customer Category:</label><br>
+                <select name="kategori" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                    <option value="backpacker">Backpacker (Solo Traveler)</option>
+                    <option value="family">Family Traveler</option>
+                    <option value="business">Business Traveler</option>
+                    <option value="student">Student / Educational Trip</option>
+                </select>
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label><strong>Favorite Features:</strong> (Select all that apply)</label><br>
+                <div style="margin-top: 8px;">
+                    <input type="checkbox" name="produk" value="itinerary"> Automated Itinerary Generation<br>
+                    <input type="checkbox" name="produk" value="hotel"> Hotel & Accommodation Recommendations<br>
+                    <input type="checkbox" name="produk" value="transport"> Route & Transportation Optimization<br>
+                    <input type="checkbox" name="produk" value="budget"> Budget Estimator<br>
+                </div>
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label><strong>Overall Satisfaction:</strong></label><br>
+                <div style="margin-top: 8px;">
+                    <input type="radio" name="puas" value="very_satisfied"> Very Satisfied<br>
+                    <input type="radio" name="puas" value="satisfied"> Satisfied<br>
+                    <input type="radio" name="puas" value="neutral"> Neutral<br>
+                    <input type="radio" name="puas" value="dissatisfied"> Dissatisfied<br>
+                </div>
+            </div>
+
+            <div style="margin-bottom: 25px;">
+                <label>Your Feedback & Suggestions:</label><br>
+                <textarea name="komentar" rows="4" placeholder="How can we make GassTrip better for you?" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; resize: vertical;"></textarea>
+            </div>
+
+            <div style="text-align: center; border-top: 1px solid #eee; padding-top: 20px;">
+                <input type="submit" value="Submit Survey" style="background-color: darkblue; color: white; padding: 12px 25px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; margin-right: 10px;">
+                <input type="reset" value="Clear Form" style="background-color: #ddd; color: #333; padding: 12px 25px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
+            </div>
+        </form>
+    </div>
+
+    <footer style="background-color: #333; color: white; text-align: center; padding: 20px; margin-top: 40px;">
+        <p style="margin: 0; font-size: 14px;">&copy; 2026 <b>Siti Rakhma Nursyifa</b> - Informatics Engineering Student</p>
+        <p style="margin: 5px 0 0 0; font-size: 12px; color: #aaa;">GassTrip Indonesia Project - Practice Assignment 4.2</p>
+    </footer>
+
+</body>
+</html>
